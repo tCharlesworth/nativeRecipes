@@ -1,0 +1,1 @@
+// export const VAR = 'Va_r';

@@ -1,16 +1,4 @@
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  Text,
-  View
-} from 'react-native';
+import { AppRegistry } from 'react-native';
+import App from './src/App';
 
-const nativeRecipes = () => {
-  return (
-    <View>
-      <Text>Native Recipes</Text>
-    </View>
-  );
-};
-
-AppRegistry.registerComponent('nativeRecipes', () => nativeRecipes);
+AppRegistry.registerComponent('nativeRecipes', () => App);
